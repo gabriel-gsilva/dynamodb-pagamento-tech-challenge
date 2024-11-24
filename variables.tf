@@ -1,6 +1,7 @@
 variable "dynamodb_table_name" {
   description = "Nome da tabela DynamoDB para armazenar as preferências do Mercado Pago"
   type        = string
+  default     = "MercadoPagoPreferencias"
 }
 
 variable "dynamodb_billing_mode" {
