@@ -38,7 +38,7 @@ A tabela DynamoDB é configurada com as seguintes características:
 - **Chave de Classificação**: `produto` (String)
 - **Modo de Cobrança**: Configurável, padrão é `PAY_PER_REQUEST`.
 
-## 🔧 Variáveis
+## 🔧 Variáveis 
 
 As seguintes variáveis podem ser configuradas:
 
