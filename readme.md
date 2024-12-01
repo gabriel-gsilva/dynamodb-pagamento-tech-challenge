@@ -1,4 +1,4 @@
-# DynamoDB para Armazenamento de Informações de Pagamento do Mercado Pago
+# DynamoDB para Armazenamento de Informações de Pagamento do Mercado Pago 
 
 #### 🚧 Projeto em construção... 🚧
 
@@ -16,6 +16,8 @@
   - [📝 Notas Importantes](#-notas-importantes)
 
 ## 💻 Sobre o Projeto
+
+Este projeto foi desenvolvido durante o **Tech Challenge** oferecido pela [FIAP] como parte do curso de Arquitetura de Software.
 
 Este projeto utiliza Terraform para provisionar uma tabela DynamoDB na AWS, destinada a armazenar informações de pagamento relacionadas ao Mercado Pago.
 
@@ -36,7 +38,7 @@ A tabela DynamoDB é configurada com as seguintes características:
 - **Chave de Classificação**: `produto` (String)
 - **Modo de Cobrança**: Configurável, padrão é `PAY_PER_REQUEST`.
 
-## 🔧 Variáveis
+## 🔧 Variáveis 
 
 As seguintes variáveis podem ser configuradas:
 
@@ -45,7 +47,7 @@ As seguintes variáveis podem ser configuradas:
 - `dynamodb_billing_mode`: Modo de cobrança (`PROVISIONED` ou `PAY_PER_REQUEST`)
 - `tags`: Tags para a tabela DynamoDB
 
-## 📤 Saídas
+## 📤 Saídas 
 
 Após a aplicação do Terraform, as seguintes informações estarão disponíveis:
 
