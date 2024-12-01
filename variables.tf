@@ -1,12 +1,13 @@
 variable "aws_region" {
   description = "A região da AWS onde os recursos serão criados"
   type        = string
-  default     = "us-east-1"
+  default     = "sa-east-1"
 }
 
 variable "dynamodb_table_name" {
   description = "Nome da tabela DynamoDB"
   type        = string
+  default = "MercadoPagoPreferencias"
 }
 
 variable "dynamodb_billing_mode" {
