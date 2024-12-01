@@ -4,16 +4,16 @@ variable "aws_region" {
   default     = "sa-east-1"
 }
 
-variable "dynamodb_table_name" {
-  description = "Nome da tabela DynamoDB"
-  type        = string
-  default = "MercadoPagoPreferencias"
-}
-
 variable "dynamodb_billing_mode" {
   description = "Modo de cobrança do DynamoDB (PROVISIONED ou PAY_PER_REQUEST)"
   type        = string
   default     = "PAY_PER_REQUEST"
+}
+
+variable "dynamodb_table_name" {
+  description = "Nome da tabela DynamoDB"
+  type        = string
+  default = "MercadoPagoPreferencias"
 }
 
 variable "tags" {
