@@ -12,7 +12,7 @@ resource "aws_dynamodb_table" "preferencias" {
     name = "external_reference"
     type = "S"
   }
-
+  
   attribute {
     name = "produto"
     type = "S"
