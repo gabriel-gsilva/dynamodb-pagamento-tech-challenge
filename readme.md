@@ -47,7 +47,7 @@ As seguintes variáveis podem ser configuradas:
 - `dynamodb_billing_mode`: Modo de cobrança (`PROVISIONED` ou `PAY_PER_REQUEST`)
 - `tags`: Tags para a tabela DynamoDB
 
-## 📤 Saídas
+## 📤 Saídas 
 
 Após a aplicação do Terraform, as seguintes informações estarão disponíveis:
 
