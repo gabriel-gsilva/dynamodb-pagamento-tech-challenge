@@ -1,16 +1,22 @@
-variable "dynamodb_table_name" {
-  description = "Nome da tabela DynamoDB para armazenar as preferências do Mercado Pago"
+variable "aws_region" {
+  description = "A região da AWS onde os recursos serão criados"
   type        = string
-  default     = "MercadoPagoPreferencias"
+  default     = "sa-east-1"
+}
+
+variable "dynamodb_table_name" {
+  description = "Nome da tabela DynamoDB"
+  type        = string
 }
 
 variable "dynamodb_billing_mode" {
-  description = "Modo de cobrança para a tabela DynamoDB"
+  description = "Modo de cobrança do DynamoDB (PROVISIONED ou PAY_PER_REQUEST)"
   type        = string
   default     = "PAY_PER_REQUEST"
 }
 
 variable "tags" {
-  description = "Tags a serem aplicadas a todos os recursos"
+  description = "Tags para a tabela DynamoDB"
   type        = map(string)
+  default     = {}
 }
