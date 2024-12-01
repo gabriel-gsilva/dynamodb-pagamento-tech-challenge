@@ -1,4 +1,4 @@
-# DynamoDB para Armazenamento de Informações de Pagamento do Mercado Pago
+# DynamoDB para Armazenamento de Informações de Pagamento do Mercado Pago 
 
 #### 🚧 Projeto em construção... 🚧
 
@@ -16,6 +16,8 @@
   - [📝 Notas Importantes](#-notas-importantes)
 
 ## 💻 Sobre o Projeto
+
+Este projeto foi desenvolvido durante o **Tech Challenge** oferecido pela [FIAP] como parte do curso de Arquitetura de Software.
 
 Este projeto utiliza Terraform para provisionar uma tabela DynamoDB na AWS, destinada a armazenar informações de pagamento relacionadas ao Mercado Pago.
 
