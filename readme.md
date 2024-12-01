@@ -1,6 +1,6 @@
 # DynamoDB para Armazenamento de Informações de Pagamento do Mercado Pago 
 
-#### 🚧 Projeto em construção... 🚧
+#### 🚧 Projeto finalizado 🚧
 
 ## 📋 Índice
 
